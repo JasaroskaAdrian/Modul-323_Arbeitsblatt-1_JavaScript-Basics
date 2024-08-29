@@ -2,7 +2,7 @@
 function myFunctionA(Number1, Number2) {
     Number1 = Math.random() * 113;
     Number2 = Math.random() * 60;
-    let sum = Number1 + Number2;
+    let sum = Number1 * Number2;
     console.log(sum)
 }
 myFunctionA()
@@ -14,5 +14,5 @@ function temperatureCalculator(Celsius) {
     console.log(`${Celsius} C° entsprechen ${fahrenheitOutput} F°`)
 }
 //Aufgabe c
-let multiply = (a, b) => a * b
+let multiply = (a, b) => a % b
 console.log(multiply(5, 8))

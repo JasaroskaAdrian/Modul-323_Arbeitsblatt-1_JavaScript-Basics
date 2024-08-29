@@ -2,11 +2,9 @@
 const myMathA = Math.random()
 if (myMathA > 0.5) {
     console.log("Grösser als 0.5")
-}
-if (myMathA > 0.25) {
+} else if (myMathA > 0.25) {
     console.log("Grösser als 0.25")
-}
-else {
+} else {
     console.log("Kleiner oder gleich 0.25")
 }
 console.log(myMathA)

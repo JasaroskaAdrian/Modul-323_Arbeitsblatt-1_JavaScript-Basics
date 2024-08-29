@@ -5,7 +5,7 @@ for (let i = 0; i <= 10; i++) {
 
 //Aufgabe b
 do {
-    var i = Math.floor(Math.random() * 10)
+    let i = Math.floor(Math.random() * 10)
     console.log(i)
 } while (i < 8);
 
